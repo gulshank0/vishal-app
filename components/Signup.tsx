@@ -74,6 +74,7 @@ export function SignupForm() {
               value={firstName} 
               onChange={(e) => setFirstName(e.target.value)}
               required 
+              className="text-black"
             />
           </LabelInputContainer>
           <LabelInputContainer>
@@ -84,7 +85,8 @@ export function SignupForm() {
               type="text" 
               value={lastName} 
               onChange={(e) => setLastName(e.target.value)}
-              required 
+              required
+              className="text-black" 
             />
           </LabelInputContainer>
         </div>
@@ -98,6 +100,7 @@ export function SignupForm() {
             value={email} 
             onChange={(e) => setEmail(e.target.value)}
             required 
+            className="text-black"
           />
         </LabelInputContainer>
         
@@ -111,6 +114,7 @@ export function SignupForm() {
               value={password} 
               onChange={(e) => setPassword(e.target.value)}
               required 
+              className="text-black"
             />
             <button 
               type="button"
@@ -142,8 +146,9 @@ export function SignupForm() {
               type={showPassword ? "text" : "password"} 
               value={confirmPassword} 
               onChange={(e) => setConfirmPassword(e.target.value)}
-              className={password && confirmPassword && password !== confirmPassword ? "border-red-500" : ""}
+              className={`${password && confirmPassword && password !== confirmPassword ? "border-red-500" : ""} text-black`}
               required
+              
             />
             <button 
               type="button"
