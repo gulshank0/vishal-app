@@ -54,7 +54,7 @@ export default function ContactCard() {
                 value={formData.name}
                 onChange={handleChange}
                 name="name"
-                className="w-full px-3 sm:px-4 py-2 sm:py-3 bg-muted border border-gray-700 rounded-md focus:outline-none focus:ring-2 focus:ring-gray-900 text-black"
+                className="w-full px-3 sm:px-4 py-2 sm:py-3 bg-gray-300 border border-gray-700 rounded-md focus:outline-none focus:ring-2 focus:ring-gray-900 text-black"
                 required
               />
             </div>
@@ -66,7 +66,7 @@ export default function ContactCard() {
                 value={formData.email}
                 onChange={handleChange}
                 name="email"
-                className="w-full px-3 sm:px-4 py-2 sm:py-3 bg-muted border border-gray-700 rounded-md focus:outline-none focus:ring-2 focus:ring-gray-900 text-black"
+                className="w-full px-3 sm:px-4 py-2 sm:py-3 bg-gray-300 border border-gray-700 rounded-md focus:outline-none focus:ring-2 focus:ring-gray-900 text-black"
                 required
               />
             </div>
@@ -78,7 +78,7 @@ export default function ContactCard() {
                 value={formData.companyName}
                 onChange={handleChange}
                 name="companyName"
-                className="w-full px-3 sm:px-4 py-2 sm:py-3 bg-muted border border-gray-700 rounded-md focus:outline-none focus:ring-2 focus:ring-gray-900 text-black"
+                className="w-full px-3 sm:px-4 py-2 sm:py-3 bg-gray-300 border border-gray-700 rounded-md focus:outline-none focus:ring-2 focus:ring-gray-900 text-black"
               />
             </div>
             
@@ -88,7 +88,7 @@ export default function ContactCard() {
                 value={formData.message}
                 onChange={handleChange}
                 name="message"
-                className="w-full px-3 sm:px-4 py-2 sm:py-3 bg-muted border border-gray-700 rounded-md focus:outline-none focus:ring-2 focus:ring-gray-900 text-black h-28 md:h-36 resize-none"
+                className="w-full px-3 sm:px-4 py-2 sm:py-3 bg-gray-300 border border-gray-700 rounded-md focus:outline-none focus:ring-2 focus:ring-gray-900 text-black h-28 md:h-36 resize-none"
                 required
               ></textarea>
             </div>
@@ -108,7 +108,7 @@ export default function ContactCard() {
               {status && <p className={`text-sm mt-2 text-center md:text-left ${status.includes('success') ? 'text-green-400' : 'text-gray-400'}`}>{status}</p>}
               <button 
                 type="submit" 
-                className="w-full mt-2 px-4 sm:px-6 py-2 sm:py-3 bg-muted hover:bg-muted-dark hover:cursor-pointer text-black font-medium rounded-md transition duration-300 ease-in-out transform hover:-translate-y-1"
+                className="w-full mt-2 px-4 sm:px-6 py-2 sm:py-3 bg-gray-300 hover:bg-muted-dark hover:cursor-pointer text-black font-medium rounded-md transition duration-300 ease-in-out transform hover:-translate-y-1"
               >
                 {status === 'Sending...' ? 'Sending...' : 'Send Message'}
               </button>

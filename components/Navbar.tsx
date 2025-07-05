@@ -34,9 +34,9 @@ export function Navbar() {
         <div className="mx-auto px-6">
           <div className="flex h-16 md:h-16 items-center justify-between">
             <Link href="/" className="flex items-center space-x-2">
-            <Image src="/logo.png" alt="Logo" width={80} height={60} className="h-10 w-auto rounded-lg" />
+            <Image src="/logo.jpeg" alt="Logo" width={60} height={80} className="h-10 w-auto rounded" />
               <span className="hidden sm:block text-xl font-bold text-white">
-                Vishal Printers
+                Vaishanavi Press
               </span>
             </Link>
 
