@@ -6,17 +6,17 @@ export default function Content() {
   
   const features = [
     {
-      title: "Vishal Printers Pvt. Ltd.",
+      title: "Vaishanavi Press Pvt. Ltd.",
       description: "Experience the best in printing technology with us",
       image:"/img-4.jpg" // You'll need to add these images to your public folder
     },
     {
-      title: "Vishal Printers Pvt. Ltd.",
+      title: "Vaishanavi Press Pvt. Ltd.",
       description: "Your one-stop solution for all printing needs",
       image: "/img-5.jpg"
     },
     {
-      title: "Vishal Printers Pvt. Ltd.",
+      title: "Vaishanavi Press Pvt. Ltd.",
       description: "Quality printing services that exceed expectations",
       image: "/img-6.jpg"
     }
