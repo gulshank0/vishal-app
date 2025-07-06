@@ -119,10 +119,10 @@ export default function ContactCard() {
         {/* Company information */}
         <div className="bg-transparent p-4 sm:p-6 md:p-8 rounded-lg shadow-lg flex flex-col justify-between order-1 md:order-2">
           <div>
-            <h2 className="text-2xl sm:text-3xl md:text-4xl font-semibold mb-3 md:mb-6">RBased Pvt Ltd</h2>
+            <h2 className="text-2xl sm:text-3xl md:text-4xl font-semibold mb-3 md:mb-6">Vashanavi Printers</h2>
             
             <p className="text-gray-300 mb-4 md:mb-6 text-sm sm:text-base">
-           We are here to provide exellent services in the field of printing, Cards, Banners, Stickers, and more. Our team is dedicated to delivering high-quality products that meet your needs and exceed your expectations. Whether you are a business looking for promotional materials or an individual seeking personalized items, we have the expertise and resources to bring your vision to life. 
+           We are here to provide excellent services in the field of printing, Cards, Banners, Stickers, and more. Our team is dedicated to delivering high-quality products that meet your needs and exceed your expectations. Whether you are a business looking for promotional materials or an individual seeking personalized items, we have the expertise and resources to bring your vision to life. 
             </p>
             
             <div className="space-y-3 md:space-y-4 mb-6 md:mb-8">
